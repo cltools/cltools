@@ -21,8 +21,10 @@ project = 'cltools'
 copyright = '2021, Nicolas Tessore'
 author = 'Nicolas Tessore'
 
+from datetime import datetime
+
 # The full version, including alpha/beta/rc tags
-release = '2021.3.11'
+release = datetime.today().strftime('%Y.%m.%d')
 
 
 # -- General configuration ---------------------------------------------------
