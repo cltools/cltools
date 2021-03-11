@@ -9,8 +9,8 @@ Packages
 .. toctree::
    :maxdepth: 1
 
-   interpcl
-   sortcl
+   interpcl/index
+   sortcl/index
 
 
 Indices and tables
