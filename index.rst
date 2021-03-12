@@ -9,6 +9,7 @@ Packages
 .. toctree::
    :maxdepth: 1
 
+   convolvecl/index
    interpcl/index
    sortcl/index
 
