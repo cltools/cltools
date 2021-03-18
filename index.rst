@@ -15,6 +15,15 @@ Packages
    transformcl/index
 
 
+Auxiliary packages
+------------------
+
+.. toctree::
+   :maxdepth: 1
+
+   flt/index
+
+
 Indices and tables
 ------------------
 

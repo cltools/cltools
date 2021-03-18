@@ -4,5 +4,8 @@ interpcl
 sortcl
 transformcl
 
+# auxiliary
+flt
+
 # docs
 numpydoc
