@@ -12,6 +12,7 @@ Packages
    convolvecl/index
    interpcl/index
    sortcl/index
+   transformcl/index
 
 
 Indices and tables

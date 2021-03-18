@@ -2,6 +2,7 @@
 convolvecl
 interpcl
 sortcl
+transformcl
 
 # docs
 numpydoc
