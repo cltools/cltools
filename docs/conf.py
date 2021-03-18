@@ -10,21 +10,25 @@
 # add these directories to sys.path here. If the directory is relative to the
 # documentation root, use os.path.abspath to make it absolute, like shown here.
 #
-# import os
+import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
 
 
 # -- Project information -----------------------------------------------------
 
-project = 'cltools'
-copyright = '2021, Nicolas Tessore'
-author = 'Nicolas Tessore'
+# Get configuration information from setup.cfg
+from configparser import ConfigParser
+conf = ConfigParser()
+conf.read([os.path.join(os.path.dirname(__file__), '..', 'setup.cfg')])
+setup_cfg = dict(conf.items('metadata'))
 
-from datetime import datetime
+project = setup_cfg['name']
+copyright = '2021, Nicolas Tessore'
+author = setup_cfg['author']
 
 # The full version, including alpha/beta/rc tags
-release = datetime.today().strftime('%Y.%m.%d')
+release = setup_cfg['version']
 
 
 # -- General configuration ---------------------------------------------------
