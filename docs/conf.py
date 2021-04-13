@@ -73,5 +73,7 @@ autosummary_generate = True
 
 # -- Intersphinx -------------------------------------------------------------
 intersphinx_mapping = {
+    'numpy': ('https://numpy.org/doc/stable/', None),
+    'scipy': ('https://docs.scipy.org/doc/scipy/reference/', None),
     'healpy': ('https://healpy.readthedocs.io/en/latest/', None),
 }
