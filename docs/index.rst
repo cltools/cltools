@@ -11,7 +11,7 @@ Packages
 
    convolvecl/index
    interpcl/index
-   lognormcl/index
+   normcl/index
    sortcl/index
    transformcl/index
 
