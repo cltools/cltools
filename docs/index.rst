@@ -24,6 +24,7 @@ Auxiliary packages
    :maxdepth: 1
 
    flt/index
+   Wigner 3j symbols <https://threej.readthedocs.io>
 
 
 Indices and tables
